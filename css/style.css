@@ -3,7 +3,7 @@
     --fuente-parrafos: 'Open Sans', sans-serif;
 
     --primario: #784D3C;
-    -blanco: #ffffff;
+    --blanco: #ffffff;
     --negro: #000000;
 }
 
@@ -77,4 +77,10 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+.header__texto {
+    text-align: center;
+    color: var(--blanco);
+    margin-top: 5rem;
 }
