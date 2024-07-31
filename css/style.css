@@ -16,7 +16,7 @@ html {
     box-sizing: inherit;
 }
 
-.body {
+body {
     font-family: var(--fuente-parrafos);
     font-size: 1.6rem;
     line-height: 2;
@@ -68,4 +68,13 @@ img {
 
 .centrar-texto {
     align-items: center;
+}
+
+/* Header */
+.header {
+    background-image: url('../img/banner.jpg');
+    height: 60rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
